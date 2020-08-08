@@ -1,0 +1,138 @@
+body{
+    margin: 0;
+    line-height: 2;
+}
+nav{
+    width: 100%;
+   margin: 0;
+   position: fixed;
+
+}
+nav ul{
+    margin:0;
+    background-color:#eee;
+    padding: 1px;
+    overflow: hidden;
+
+}
+nav ul li {
+    float: left;
+    text-decoration: none;
+    list-style: none;
+
+}
+.sumi{
+    float: right;
+}
+
+nav ul li a{
+    padding: 14px;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a:hover{
+    color:rgb(85, 12, 12);
+    background-color: royalblue;
+}
+.container{
+    width:100%;
+    margin: auto;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+#sect{
+    background-image: linear-gradient(royalblue,skyblue);
+}
+.box{
+    font-size: 50px;
+    color:#eeeeee;
+    font-family: 'Fredoka One', cursive;
+     margin-left:50px;
+    text-transform: uppercase;
+    
+}
+
+.box2{
+    background-color: rgb(92, 32, 233);
+     width: 50%;
+     padding: 25px;
+     margin-left: 25%;
+     color:#eeeeee;
+     border-radius: 100px;
+     align-items: center;
+}
+form h2{
+    margin-left: 20%;
+
+}
+input[type="text"]{
+    margin-left: 30%;
+    border-radius: 25px;
+   width:200px;
+   height: 25px;
+}
+input[type="password"]{
+    margin-left: 30%;
+    width:200px;
+    height: 25px;
+    border-radius: 25px;
+}
+#nichu{
+    border-radius: 25px;
+    padding: 10px;
+    color:blue;
+    border-color: blue;
+    margin-left: 40%;
+
+}
+.col-4{
+    width:33.3%;
+}
+.box-3{
+    background-color: #fff;
+    box-shadow: 0 0 0 1px rgba(0,0,0,.15),
+    0 2px 3px 0 rgba(0, 0,0, .1); 
+}
+.row{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pox{
+    position: relative;
+    width: 20%;
+    height: 300px;
+    float: left;
+    margin: 15px;
+    
+    background: #fff;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 0 0 2px;
+}
+
+.rub{
+    width:33.3%;
+    height:100px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.row::after{
+    display:table;
+    clear: both;
+    content:"";
+}
+.foot{
+    background-color: gray;
+    height: 100px;
+    width: 100%;
+      bottom: 0;
+      display: flex;
+    
+}
